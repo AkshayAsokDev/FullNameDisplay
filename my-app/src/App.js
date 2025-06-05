@@ -20,12 +20,12 @@ function NameForm({name, setName}) {
     >
       <div>
         <label for="first">First Name:</label>
-        <input name="first" id="first" required />
+        <input type="text" name="first" id="first" required />
       </div>
       
       <div>
         <label for="last" id="first">Last Name:</label>
-        <input name="last" required />
+        <input type="text" name="last" required />
       </div>
 
       <button type="submit" >Submit</button>
